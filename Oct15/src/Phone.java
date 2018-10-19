@@ -1,10 +1,15 @@
+/*
+ * Qihui Guo
+ */
 
+	//attributes
 public class Phone {
 	private String Manufacturer;
 	private String Model;
 	private int Price;
 	private String Carrier;
 	
+	//constructor
 	public Phone(String manufacturer, String model, int price, String carrier) {
 		Manufacturer = manufacturer;
 		Model = model;
@@ -12,6 +17,7 @@ public class Phone {
 		Carrier = carrier;
 	}
 	
+	//methods
 	public String call(String phonenumber) {
 		return "I am calling "+phonenumber;
 		}
